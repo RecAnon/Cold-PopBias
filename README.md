@@ -1,1 +1,4 @@
-# Cold-PopBias
+# On Inherited Popularity Bias in Cold-Start Item Recommendation
+This repository contains code and resources for the RecSys 2025 short paper submission "On Inherited Popularity Bias in Cold-Start Item Recommendation". The model implementations and setup were based on the [ColdRec](https://github.com/YuanchenBei/ColdRec) repository, with adjustments made to model code to improve performance and align more closely with the original implementations by the authors. To facilitiate reproducibility, we include the final post-tuning [hyperparameter settings](https://github.com/RecAnon/Cold-PopBias/blob/main/src/hyperparams.yml) used to produce the results in the paper for each model on each dataset. The full repository including utility and data classes will be made available upon acceptance.
+
+We also upload the [supplementary material document](https://github.com/RecAnon/Cold-PopBias/blob/main/ColdPopBias_SupplementaryMaterial.pdf) referenced in the paper, which includes detailed dataset information and figures which augment the case study and magnitude scaling analysis from the main paper. 
